@@ -1,4 +1,4 @@
-import './index.css';
+import './App.css';
 import Employee from './Components/Employee';
 import { useState } from 'react';
 
@@ -7,7 +7,7 @@ function App() {
 
   const showEmployees = true;
   return (
-    <div className="App bg-red-300">
+    <div className="App">
       {showEmployees ?
 
         <>
