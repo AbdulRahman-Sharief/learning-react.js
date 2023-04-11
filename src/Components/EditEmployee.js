@@ -69,7 +69,7 @@ function EditEmployee(props) {
                         Close
                     </Button>
                     {/* <button form='editmodal'>Update</button> */}
-                    <Button form='editmodal' type='submit' variant="primary">Update</Button>
+                    <Button form='editmodal' type='submit' style={{ color: "white", background: "purple", border: 'purple' }} variant="primary">Update</Button>
                 </Modal.Footer>
             </Modal>
         </>
