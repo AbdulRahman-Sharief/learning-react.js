@@ -2,7 +2,9 @@ import Header from './Components/Header';
 import './index.css';
 import Employees from './Pages/Employees';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Dictionary from './Components/Dictionary';
+import Dictionary from './Pages/Dictionary';
+import Definition from './Pages/Definition';
+
 function App() {
 
   return (
@@ -10,10 +12,9 @@ function App() {
       <BrowserRouter>
         <Header>
           <Routes>
-            <Route path='/employees' element={<Employees />}>
-            </Route>
-            <Route path='/dictionary' element={<Dictionary />}>
-            </Route>
+            <Route path='/employees' element={<Employees />} />
+            <Route path='/dictionary' element={<Dictionary />} />
+            <Route path='/definition' element={<Definition />} />
           </Routes>
 
         </Header>
